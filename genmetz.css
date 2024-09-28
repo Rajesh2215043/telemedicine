@@ -1,0 +1,245 @@
+* {
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Exo 2", sans-serif;
+}
+
+body {
+  background-color: aqua;
+}
+.index1 {
+  width: 100%;
+  height: 470px;
+}
+.index2 {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  /* border: 2px solid black; */
+}
+.index3 {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(247, 10, 10);
+  /* border: 2px solid black; */
+}
+.navbar {
+  background-color: rgb(48, 43, 43);
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+}
+.navdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.navdiv {
+  color: aliceblue;
+}
+.navul > li {
+  font-family: "Exo 2", sans-serif;
+  display: inline-block;
+  justify-content: space-around;
+  color: aliceblue;
+  padding: 0px 20px 0px 20px;
+}
+.navul > li > a {
+  color: white;
+  background-color: none;
+  text-decoration: none;
+}
+.navul > li > a:hover {
+  /* background-color: white;
+  color: black; */
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navul {
+  padding-right: 30px;
+}
+.navlogo {
+  padding-left: 60px;
+  font-family: "Exo 2", sans-serif;
+}
+.navlogo > h1 {
+  font-size: 30px;
+}
+.navlogo > i {
+  color: aliceblue;
+  /* margin-top: 5px; */
+  margin-right: 10px;
+  font-size: 30px;
+}
+.navlogo {
+  display: flex;
+}
+
+.searchdiv {
+  display: flex;
+  justify-content: center;
+  margin-right: 0px;
+}
+.searchform {
+  display: flex;
+  margin: 0px;
+}
+.searchform > input {
+  width: 500px;
+  text-transform: uppercase;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 3px;
+  outline: none;
+  padding: 4px 4px 4px 15px;
+}
+input[type="search"],
+input[type="email"],
+input[type="password"] {
+  font-size: 18px;
+}
+.searchbutton {
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.index1_imgdiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.index1_imgdiv > img {
+  height: 350px;
+  width: 320px;
+  padding-left: 100px;
+}
+.index1_imgdiv > div {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+.index1_imgdiv > div > h1 {
+  font-size: 50px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 300;
+}
+.index1_imgdiv > div > span {
+  font-size: 60px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  color: rgb(220, 225, 230);
+}
+.index1_imgdiv > div > p {
+  font-size: 22px;
+  text-align: justify;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 200;
+}
+.index2 > p {
+  color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* .index2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+.index2 > h1 {
+  padding-top: 20px;
+  padding-left: 650px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.index2_div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.fast_del {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  /* border: 2px solid black;
+  border-radius: 30px; */
+}
+.gov_license {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  /* border: 2px solid black;
+  border-radius: 30px; */
+}
+.cus_support {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  /* border: 2px solid black;
+  border-radius: 30px; */
+}
+.fast_del > i {
+  font-size: 80px;
+  margin: 90px 90px 0px 90px;
+}
+.fast_del > h3 {
+  text-align: center;
+  margin: 20px;
+  font-weight: 600;
+}
+.fast_del > p {
+  text-align: center;
+}
+.gov_license > i {
+  font-size: 80px;
+  margin: 90px 90px 0px 100px;
+}
+.gov_license > h3 {
+  text-align: center;
+  margin: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.gov_license > p {
+  text-align: center;
+}
+.cus_support > i {
+  font-size: 80px;
+  margin: 90px 90px 0px 110px;
+}
+.cus_support > h3 {
+  text-align: center;
+  margin: 20px;
+  font-weight: 600;
+}
+.cus_support > p {
+  text-align: center;
+}
+.medicine {
+  display: flex;
+  flex-wrap: wrap;
+}
+.medicine div {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  margin: 30px;
+  flex-basis: 15%;
+}
